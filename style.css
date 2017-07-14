@@ -1,0 +1,88 @@
+.center, #app, #footer {
+        text-align: center;
+      }
+      ul {
+          list-style: none;
+          padding: 0;
+      }
+      img {
+          display: inline;
+          width: 200px;
+          height: 100px;
+      }
+      #footer {
+          width: 102%;
+          border-top: solid 2px black;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+
+      #input-parent {
+            display: inline;
+             width: 160px;
+            margin: 0 auto 0 auto;
+
+      }
+
+      .guess{
+          position: relative;
+          top: 75px;
+          display: inline;
+          font-size: medium;
+          border: 3px solid black;
+          border-radius: 15%;
+          padding: 15px 25px;
+          background-color: aquamarine;
+
+      }
+
+      #submit-button{
+        position: relative;
+        top: 75px;
+        right: 25px;
+        border-radius: 180%;
+        width: 80px;
+        height: 80px;
+      }
+
+      #players-input{
+        position: relative;
+        top: 25px;
+        left: 30px;
+        border: 2px solid black;
+        border-radius: 180%;
+        width: 160px;
+        height: 160px;
+        font-size: 50px;
+      }
+
+      #menu-btns{
+        position: relative;
+        top: 130px;
+        right: 10px;
+      }
+
+
+      body{
+        background: url("netrunnerbg.jpg");
+        background-size: cover;
+
+      }
+
+     #app{
+      position: relative;
+      top: 25px;
+      background: white;
+      height: 500px;
+      width: 500px;
+      background-color: rgba(256, 256, 256, 0.80);
+     }
+
+
+
+
+
+
+
+      

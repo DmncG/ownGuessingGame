@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+      <div id='app' class="container">
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1>  Guessing Game! </h1>
+          <h3> Guess a number between 1-100 </h3>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='players-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+            <button id='submit-button' type="button" class="btn btn-primary">Submit</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id="guess-list">
+             <li class="guess">-</li>
+             <li class="guess">-</li>
+             <li class="guess">-</li>
+             <li class="guess">-</li>
+             <li class="guess">-</li> 
+
+
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button type="button" id="hint" class="btn btn-info">Hint</button>
+            <button type="button" id="reset" class="btn btn-warning">Reset</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class="row">
+        <div>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Dominic Garcia</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src='../GuessingGame-Part2/GuessingGame.js'></script>
+  </body>
+</html>
